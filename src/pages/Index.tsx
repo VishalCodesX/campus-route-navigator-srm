@@ -183,7 +183,7 @@ const Index: React.FC = () => {
         </div>
       </main>
       
-    <footer className="mt-8 bg-gradient-to-r from-srm-purple-dark via-srm-purple-light to-srm-purple-dark text-white text-center py-4 text-sm rounded-t-lg shadow-inner">
+    <footer className="bg-gradient-to-r from-blue-900 to-blue-700 p-4 md:p-6 text-white rounded-b-lg shadow-lg text-center py-4 text-sm rounded-t-lg shadow-inner">
       <p>SRM Campus Route Navigator | Developed with ❤️ for SRM University</p>
     </footer>
     </div>
