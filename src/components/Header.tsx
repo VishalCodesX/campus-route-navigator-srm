@@ -16,14 +16,14 @@ const Header: React.FC = () => {
             </div>
           </div>
           <div className="ml-3">
-            <h1 className="text-xl md:text-2xl font-bold">SRM Campus Navigator</h1>
-            <p className="text-xs md:text-sm opacity-80">Find the optimal route across campus</p>
+            <h1 className="text-xl md:text-2xl font-bold text-white">SRM Campus Navigator</h1>
+            <p className="text-xs md:text-sm text-white/80">Find the optimal route across campus</p>
           </div>
         </div>
         
         <div className="text-center md:text-right">
-          <h2 className="text-sm md:text-base font-semibold">SRM University</h2>
-          <p className="text-xs opacity-80">Interactive Route Planning Tool</p>
+          <h2 className="text-sm md:text-base font-semibold text-white">SRM University</h2>
+          <p className="text-xs text-white/80">Interactive Route Planning Tool</p>
         </div>
       </div>
     </header>
