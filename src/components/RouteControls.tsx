@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '../components/ui/button';
 import { Label } from '../components/ui/label';
@@ -11,7 +10,7 @@ import {
   SelectValue 
 } from '../components/ui/select';
 import { Checkbox } from '../components/ui/checkbox';
-import { LocationMarker, Route } from 'lucide-react';
+import { MapPin, Route } from 'lucide-react';
 import { locationNames } from '../data/locations';
 
 interface RouteControlsProps {
@@ -45,7 +44,7 @@ const RouteControls: React.FC<RouteControlsProps> = ({
         {/* Start Point Selection */}
         <div className="space-y-1.5">
           <Label htmlFor="start-point" className="text-sm font-medium">
-            <LocationMarker className="inline-block w-4 h-4 mr-1" />
+            <MapPin className="inline-block w-4 h-4 mr-1" />
             Start Point
           </Label>
           <Select value={start || ""} onValueChange={onStartChange}>
@@ -67,7 +66,7 @@ const RouteControls: React.FC<RouteControlsProps> = ({
         {/* End Point Selection */}
         <div className="space-y-1.5">
           <Label htmlFor="end-point" className="text-sm font-medium">
-            <LocationMarker className="inline-block w-4 h-4 mr-1" />
+            <MapPin className="inline-block w-4 h-4 mr-1" />
             End Point
           </Label>
           <Select value={end || ""} onValueChange={onEndChange}>
