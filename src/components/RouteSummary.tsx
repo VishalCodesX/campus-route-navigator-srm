@@ -47,7 +47,7 @@ const RouteSummary: React.FC<RouteSummaryProps> = ({ route, distance, time }) =>
           <div className="grid grid-cols-2 gap-4 pt-2">
             <div>
               <h3 className="text-sm font-semibold text-muted-foreground">Distance:</h3>
-              <p className="text-xl font-bold">{distance ? distance.toFixed(1) : '--'} units</p>
+              <p className="text-xl font-bold">{distance ? distance.toFixed(1) : '--'} meters</p>
               <p className="text-xs text-muted-foreground">Approximate walking distance</p>
             </div>
             
