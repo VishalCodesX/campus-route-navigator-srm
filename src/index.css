@@ -1,69 +1,24 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 260 33% 98%;
-    --foreground: 262 47% 12%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 262 47% 12%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 262 47% 12%;
-
-    --primary: 262 58% 74%;
+    --background: 210 100% 50%;
+    --foreground: 0 0% 100%;
+    --primary: 210 100% 50%;
     --primary-foreground: 0 0% 100%;
-
-    --secondary: 262 24% 54%;
+    --secondary: 210 50% 40%;
     --secondary-foreground: 0 0% 100%;
-
-    --muted: 262 15% 90%;
-    --muted-foreground: 262 20% 40%;
-
-    --accent: 262 40% 92%;
-    --accent-foreground: 262 47% 12%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 262 20% 86%;
-    --input: 262 20% 86%;
-    --ring: 262 58% 74%;
-
-    --radius: 0.5rem;
   }
 
   .dark {
-    --background: 262 47% 12%;
-    --foreground: 262 40% 92%;
-
-    --card: 262 47% 12%;
-    --card-foreground: 262 40% 92%;
-
-    --popover: 262 47% 12%;
-    --popover-foreground: 262 40% 92%;
-
-    --primary: 262 58% 74%;
-    --primary-foreground: 262 47% 12%;
-
-    --secondary: 262 24% 54%;
-    --secondary-foreground: 262 40% 92%;
-
-    --muted: 262 40% 20%;
-    --muted-foreground: 262 20% 70%;
-
-    --accent: 262 40% 20%;
-    --accent-foreground: 262 40% 92%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 262 40% 92%;
-
-    --border: 262 40% 30%;
-    --input: 262 40% 30%;
-    --ring: 262 58% 74%;
+    --background: 210 100% 20%;
+    --foreground: 0 0% 100%;
+    --primary: 210 100% 30%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 50% 20%;
+    --secondary-foreground: 0 0% 100%;
   }
 }
 
@@ -77,7 +32,7 @@
   }
 
   .map-container {
-    background-color: #f1e6d0; /* Map background color similar to the provided image */
+    background-color: #f1e6d0;
   }
 
   .marker {
